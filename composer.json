@@ -1,0 +1,38 @@
+{
+    "name": "readyphp/sample-web",
+    "license": "proprietary",
+    "config": {
+        "optimize-autoloader": false,
+        "apcu-autoloader": true
+    },
+    "require": {
+		"php-64bit": ">=7.2",
+		"ext-apcu": "*",
+		"ext-mongodb": "*",
+		"ext-json": "*",
+		"ext-mysqli": "*",
+		"readyphp/account": "dev-master",
+		"readyphp/application": "dev-master"
+    },
+    "replace": {
+
+    },
+    "require-dev": {
+		"roave/security-advisories": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.logbookie.eu/"
+        },
+        {
+            "type": "composer",
+            "url": "https://readyphp.logbookie.eu/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+
+        }
+    }
+}
